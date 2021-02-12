@@ -1,4 +1,4 @@
-#suttupaperi
+# suttupaperi
 
 
 def bmi(paino, pituus):
@@ -10,8 +10,8 @@ def bmi(paino, pituus):
 
     returns:
         float: painoindeksi
-    """    
-    return paino / pituus** 2
+    """
+    return paino / pituus ** 2
 
 
 oma_bmi = bmi(74, 1.71)
@@ -19,8 +19,9 @@ oma_bmi = bmi(74, 1.71)
 print('hoh-hoijaa taas on lihottu, painoindeksi on', oma_bmi)
 
 try:
-  print(x)
+    print('kaikki meni hyvin')
 except:
-  print('Something went wrong')
+    print('Something went wrong')
 finally:
-  print('The try except is finished')
+    print('The try except is finished')
+    
